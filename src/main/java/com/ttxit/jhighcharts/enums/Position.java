@@ -8,6 +8,13 @@ package com.ttxit.jhighcharts.enums;
  */
 public enum Position {
     
-    align, verticalAlign, x, y
+    ALIGN,
+    VERTICALALIGN,
+    X,
+    Y,
+    TOP,
+    LEFT,
+    BOTTOM,
+    RIGHT
     
 }
