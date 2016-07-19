@@ -78,12 +78,20 @@ public class Font implements Style {
         this.fontStyle = fontStyle;
     }
     
+    public void setFontStyle(Object fontStyle) {
+        this.fontStyle = fontStyle.toString();
+    }
+    
     public String getFontVariant() {
         return fontVariant;
     }
     
     public void setFontVariant(String fontVariant) {
         this.fontVariant = fontVariant;
+    }
+    
+    public void setFontVariant(Object fontVariant) {
+        this.fontVariant = fontVariant.toString();
     }
     
     public String getFontWeight() {
@@ -94,12 +102,20 @@ public class Font implements Style {
         this.fontWeight = fontWeight;
     }
     
+    public void setFontWeight(Object fontWeight) {
+        this.fontWeight = fontWeight.toString();
+    }
+    
     public String getFontSize() {
         return fontSize;
     }
     
     public void setFontSize(String fontSize) {
         this.fontSize = fontSize;
+    }
+    
+    public void setFontSize(Object fontSize) {
+        this.fontSize = fontSize.toString();
     }
     
     public String getFontHeight() {
@@ -110,12 +126,20 @@ public class Font implements Style {
         this.fontHeight = fontHeight;
     }
     
+    public void setFontHeight(Object fontHeight) {
+        this.fontHeight = fontHeight.toString();
+    }
+    
     public String getFontFamily() {
         return fontFamily;
     }
     
     public void setFontFamily(String fontFamily) {
         this.fontFamily = fontFamily;
+    }
+    
+    public void setFontFamily(Object fontFamily) {
+        this.fontFamily = fontFamily.toString();
     }
     
     public String getCaption() {
@@ -126,12 +150,20 @@ public class Font implements Style {
         this.caption = caption;
     }
     
+    public void setCaption(Object caption) {
+        this.caption = caption.toString();
+    }
+    
     public String getIcon() {
         return icon;
     }
     
     public void setIcon(String icon) {
         this.icon = icon;
+    }
+    
+    public void setIcon(Object icon) {
+        this.icon = icon.toString();
     }
     
     public String getMenu() {
@@ -142,6 +174,10 @@ public class Font implements Style {
         this.menu = menu;
     }
     
+    public void setMenu(Object menu) {
+        this.menu = menu.toString();
+    }
+    
     public String getMessageBox() {
         return messageBox;
     }
@@ -150,8 +186,16 @@ public class Font implements Style {
         this.messageBox = messageBox;
     }
     
+    public void setMessageBox(Object messageBox) {
+        this.messageBox = messageBox.toString();
+    }
+    
     public String getSmallCaption() {
         return smallCaption;
+    }
+    
+    public void setSmallCaption(Object smallCaption) {
+        this.smallCaption = smallCaption.toString();
     }
     
     public void setSmallCaption(String smallCaption) {
@@ -164,6 +208,10 @@ public class Font implements Style {
     
     public void setStatusBar(String statusBar) {
         this.statusBar = statusBar;
+    }
+    
+    public void setStatusBar(Object statusBar) {
+        this.statusBar = statusBar.toString();
     }
     
 }
